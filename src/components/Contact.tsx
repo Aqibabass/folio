@@ -126,17 +126,17 @@ const Contact: React.FC = () => {
                 <div className="space-y-4">
                   <div className="flex items-center text-gray-300">
                     <Mail size={20} className="mr-4 text-yellow-600 flex-shrink-0" />
-                    <span>contact@storiesthrough.lens</span>
+                    <span>Aadil.offcshoots@gmail.com</span>
                   </div>
                   
                   <div className="flex items-center text-gray-300">
                     <Phone size={20} className="mr-4 text-yellow-600 flex-shrink-0" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 80825 159057</span>
                   </div>
                   
                   <div className="flex items-center text-gray-300">
                     <MapPin size={20} className="mr-4 text-yellow-600 flex-shrink-0" />
-                    <span>Based in New York, NY<br />Available worldwide</span>
+                    <span>Based in Kashmir, India <br />Available worldwide</span>
                   </div>
                 </div>
               </div>
@@ -145,29 +145,24 @@ const Contact: React.FC = () => {
                 <h4 className="text-xl font-semibold text-white mb-4">Follow My Journey</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/adil_abass/"
                     className="p-3 bg-gray-800 text-gray-400 rounded-lg hover:bg-yellow-600 hover:text-white transition-colors duration-200"
                   >
                     <Instagram size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://x.com/adil_abass9"
                     className="p-3 bg-gray-800 text-gray-400 rounded-lg hover:bg-yellow-600 hover:text-white transition-colors duration-200"
                   >
                     <Twitter size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://youtube.com/@adilabass313?si=Q0eWmKkCW6cUJeJU"
                     className="p-3 bg-gray-800 text-gray-400 rounded-lg hover:bg-yellow-600 hover:text-white transition-colors duration-200"
                   >
                     <Youtube size={20} />
                   </a>
-                  <a
-                    href="#"
-                    className="p-3 bg-gray-800 text-gray-400 rounded-lg hover:bg-yellow-600 hover:text-white transition-colors duration-200"
-                  >
-                    <Linkedin size={20} />
-                  </a>
+                  
                 </div>
               </div>
 

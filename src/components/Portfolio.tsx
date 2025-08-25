@@ -17,51 +17,54 @@ const Portfolio: React.FC = () => {
   const portfolioItems: PortfolioItem[] = [
     {
       id: 1,
-      title: 'Syrian Refugee Crisis',
+      title: 'Muharram Procession in Kashmir',
       category: 'photography',
-      image: 'https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Documentary series following Syrian families rebuilding their lives.',
-      link: '#'
+      image: 'https://imagenes2.fotos.europapress.es/preview/6839170.webp?s=1000',
+      description: 'A visual documentation of the deeply spiritual Muharram processions, exploring the intersection of faith, tradition, and political restrictions in Kashmir.',
+      link: 'https://fotos.europapress.es/actualidadinternacional/f6839170/'
     },
     {
       id: 2,
-      title: 'Climate Change in the Arctic',
-      category: 'video',
-      image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Video documentary on melting glaciers and indigenous communities.',
-      link: '#'
+      title: 'Israeli-Iranian Conflict – Kashmir Connection',
+      category: 'photography',
+      image: 'https://imagenes2.fotos.europapress.es/preview/6796989.webp?s=1000',
+      description: 'A photographic essay drawing parallels between global conflicts and local tensions in Kashmir, highlighting how international events shape everyday lives here.',
+      link: 'https://fotos.europapress.es/actualidadinternacional/f6796989'
     },
+  
     {
       id: 3,
-      title: 'Urban Youth Culture',
+      title: 'After the Gunfire: Pahalgam Attack',
       category: 'photography',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Photo essay exploring street art and youth expression in major cities.',
-      link: '#'
+      image: 'https://fl-i.thgim.com/public/incoming/x6pyac/article69501159.ece/alternates/LANDSCAPE_1200/Baisaran%20Valley.jpg',
+      description: 'Scenes from Pahalgam after the terrorist attack, featuring security personnel, deserted marketplaces, and tourists. Photo essay by Adil Abass.',
+      link: 'https://frontline.thehindu.com/the-nation/kashmir-pahalgam-terrorist-attack-2025-tourist-shooting-tragedy/article69501220.ece'
     },
     {
       id: 4,
-      title: 'Tech Revolution in Africa',
-      category: 'written',
-      image: 'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'In-depth article on mobile banking and tech innovation across Africa.',
-      link: '#'
+      title: 'Tourism and Environmental Crisis in Gurez Valley',
+      category: 'photography',
+      image: 'https://fl-i.thgim.com/public/society/lkxncr/article68523286.ece/alternates/LANDSCAPE_1200/Gurez%20Valley.jpg',
+      description: 'Photo essay documenting environmental degradation, tribal life, and pollution in Gurez Valley. Photo essay by Adil Abass.',
+      link: 'https://frontline.thehindu.com/photo-essay/kashmir-gurez-valley-srinagar-loc-tourism-krishnaganga-river-pollution-environment/article68523273.ece'
     },
     {
       id: 5,
-      title: 'Ocean Conservation',
-      category: 'video',
-      image: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Short documentary on marine life protection efforts.',
-      link: '#'
+      title: 'Ramzan in Kashmir: Traditions and Resilience',
+      category: 'photography',
+      image: 'https://fl-i.thgim.com/public/incoming/k469ud/article69320420.ece/alternates/LANDSCAPE_1200/Breaking%20Ramzan%20fast.jpeg',
+      description: 'Captures Ramzan traditions, prayers, and community life in Srinagar. Photo essay by Adil Abass.',
+      link: 'https://frontline.thehindu.com/profile/photographers/ramzan-in-kashmir-2025-traditions-struggles/article69320401.ece'
     },
+    
+      
     {
       id: 6,
-      title: 'Street Vendors of Mumbai',
-      category: 'photography',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Portrait series showcasing the resilience of Mumbai street vendors.',
-      link: '#'
+      title: 'Adil Abass Interview – Frontline India',
+      category: 'video',
+      image: 'https://img.youtube.com/vi/oMqSfWsIFuE/maxresdefault.jpg',
+      description: 'Interview with Adil Abass on Frontline India, discussing his work and experiences as a photojournalist.',
+      link: 'https://youtu.be/oMqSfWsIFuE?si=IV74Y9kSXD97OKHI'
     }
   ];
 
@@ -69,7 +72,7 @@ const Portfolio: React.FC = () => {
     { key: 'all', label: 'All Work' },
     { key: 'photography', label: 'Photography' },
     { key: 'video', label: 'Video' },
-    { key: 'written', label: 'Written Stories' }
+    { key: 'written', label: 'Written Adil Abass' }
   ];
 
   const filteredItems = selectedCategory === 'all' 
@@ -85,7 +88,7 @@ const Portfolio: React.FC = () => {
               Portfolio
             </h2>
             <p className="text-xl text-gray-300 mb-12 text-center max-w-2xl mx-auto">
-              A collection of stories that matter, told through compelling visuals and authentic narratives.
+              A collection of Adil Abass that matter, told through compelling visuals and authentic narratives.
             </p>
 
             {/* Category Filter */}
@@ -190,3 +193,7 @@ const Portfolio: React.FC = () => {
 };
 
 export default Portfolio;
+
+<p className="text-xl text-gray-300 mb-12 text-center max-w-2xl mx-auto">
+  My work has been published in and featured by: <span className="font-bold text-yellow-400">Europa Press</span>, <span className="font-bold text-yellow-400">Flipboard</span>, <span className="font-bold text-yellow-400">Frontline India</span>.
+</p>

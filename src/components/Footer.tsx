@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
             <div>
               <div className="flex items-center mb-4">
                 <Camera size={24} className="text-yellow-600 mr-2" />
-                <span className="text-2xl font-serif font-bold">Stories</span>
+                <span className="text-2xl font-serif font-bold">Adil Abass</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Capturing the world's untold stories through compelling visuals and authentic narratives. 
+                Capturing the world's untold Adil Abass through compelling visuals and authentic narratives. 
                 Every frame has a purpose, every story matters.
               </p>
             </div>
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
             </div>
             
             <div className="text-gray-400 text-sm">
-              © {currentYear} Stories Through My Lens. All rights reserved.
+              © {currentYear} Adil Abass Through My Lens. All rights reserved.
             </div>
           </div>
         </div>
